@@ -4,7 +4,7 @@ interface AddTasksProps {
   onAddTask: (task: string) => void;
 }
 
-//React.FC = Function Component
+//React.FC = Function Component for react
 //declare AddTasks func, passing in AddTasksProps, destructuring onAddTask
 const AddTasks: React.FC<AddTasksProps> = ({ onAddTask }) => {
   //initializing state- state will store the text entered by the user in the input field- taskTest is type string

@@ -10,12 +10,12 @@ const MainContainer = () => {
   };
 
   const completeTask = (index: number) => {
-    // Implement logic to mark a task as completed
+    // Implement logic to mark a task as completed - NEED TO DO
     // You can update the state or perform other actions here
   };
 
   const deleteTask = (index: number) => {
-    // Implement logic to delete a task
+    // Implement logic to delete a task - NEED TO DO
     // You can update the state or perform other actions here
   };
 
