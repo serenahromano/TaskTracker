@@ -13,8 +13,7 @@ const MainContainer = () => {
     // Implement logic to mark a task as completed - NEED TO DO
     // You can update the state or perform other actions here
   };
-  //declare deleteTask
-
+  //declare dekete
   const deleteTask = (index: number) => {
     // Implement logic to delete a task - NEED TO DO
     // You can update the state or perform other actions here
