@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const mongoose = require('mongoose');
 
 const router = require('./routes/routes.js');
 
@@ -9,10 +10,10 @@ const PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(
-  'mongodb+srv://serenahromano2000:tasktrackerpw@cluster0.iyj8vvw.mongodb.net/',
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+mongoose.connect('ADD LATER', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 mongoose.connection.once('open', () => {
   console.log('Connected to Database');
 });
